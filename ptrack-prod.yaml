@@ -33,7 +33,7 @@ paths:
       tags: [IESO]
       summary: IESO Actual Demand (Hourly)
       description: |
-        Retrieves historical measured electricity demand for the Ontario power grid as published by IESO. The API returns time-series system load data for a selected time range and resolution, supporting operational analysis, benchmarking, and validation of forecast accuracy. This data can be used to compare actual demand against both ISO-published and pTrack-generated forecasts.
+        Retrieves historical measured electricity demand for the Ontario power grid as published by IESO. The API returns time-series system load data for a selected time range, supporting operational analysis, benchmarking, and validation of forecast accuracy. This data can be used to compare actual demand against both ISO-published and pTrack-generated forecasts.
       operationId: getIesoDemandActualHourly
       parameters:
         - $ref: '#/components/parameters/start'
@@ -59,7 +59,7 @@ paths:
       tags: [IESO]
       summary: IESO Actual Demand (5-Minute)
       description: |
-        Retrieves historical measured electricity demand for the Ontario power grid as published by IESO. The API returns time-series system load data for a selected time range and resolution, supporting operational analysis, benchmarking, and validation of forecast accuracy. This data can be used to compare actual demand against both ISO-published and pTrack-generated forecasts.
+        Retrieves historical measured electricity demand for the Ontario power grid as published by IESO. The API returns time-series system load data for a selected time range, supporting operational analysis, benchmarking, and validation of forecast accuracy. This data can be used to compare actual demand against both ISO-published and pTrack-generated forecasts.
       operationId: getIesoDemandActualFiveMinute
       parameters:
         - $ref: '#/components/parameters/start'
